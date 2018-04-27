@@ -1,0 +1,48 @@
+This example org file is taken from talk by Harry Schwartz. Watch it [[https://www.youtube.com/watch?v%3DSzA2YODtgK4&index%3D4&t%3D688s&list%3DWL][here]]
+
+* Title
+Random text
+** Subtitle. Enter M-<RET> to create another item of this kind
+** Another Subtitle. You can do M-up and M-down to toggle the ite
+* Markup
+*bold*, /italic/, =verbatim=, +strikethrough+, 
+
+- bulleted
+- list
+
+*Use C-c C-l to insert a link*
+[[http://orgmode.org][Org-mode website]] -> You can go to this link with C-c C-o
+
+* Tables
+You can create a table with pipe (|), and then on the next line |- and TAB, this will keep rearranging the table
+You can use TAB to shift to different cells. 
+You can use M-up/down/left/right to toggle the rows/columns
+| Data       | Some                   |
+|------------+------------------------|
+| Data again | Some another data      |
+| oops       | another data yet again |
+
+* Export to other formats
+Use C-c C-e to export to other formats 
+
+* Giving the title using metadata
+If you export this as HTML, it will give title as example, same as the filename. 
+In order to give your own title, you can give metadata using #+ symbol
+#+TITLE: A Sample Org File
+
+* Source code
+You can edit the code inside BEGIN_SRC block by C-c ' (single quote). This will open new buffer for editing that code.
+Also, you don't need to type BEGIN_SRC and END_SRC, there's a shortcut for that. The block can be created by <s TAB
+#+BEGIN_SRC python
+  num_dict = {}
+  def fact(num):
+      if num == 1:
+          return 1
+      if (num - 1) in num_dict:
+          return num * fact(num - 1)
+      else:
+          num_dict[num-1] = fact(num - 1)
+          return num * fact(num - 1)
+  print(fact(4))
+      
+#+END_SRC 
