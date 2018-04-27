@@ -3,7 +3,7 @@ This example org file is taken from talk by Harry Schwartz. Watch it [[https://w
 * Title
 Random text
 ** Subtitle. Enter M-<RET> to create another item of this kind
-** Another Subtitle. You can do M-up and M-down to toggle the ite
+** Another Subtitle. You can do M-up and M-down to toggle the items
 * Markup
 *bold*, /italic/, =verbatim=, +strikethrough+, 
 
@@ -46,3 +46,11 @@ Also, you don't need to type BEGIN_SRC and END_SRC, there's a shortcut for that.
   print(fact(4))
       
 #+END_SRC 
+
+* LaTeX integration
+- Characters: \alpha \rightarrow \beta
+- $O(n \log n)$
+
+\begin{align*}
+    F &= ma
+\end{align*}
