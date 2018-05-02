@@ -16,9 +16,13 @@
 <li><a href="#sec-7">7. LaTeX integration</a></li>
 <li><a href="#sec-8">8. Todo stuff</a>
 <ul>
-<li><a href="#sec-8-1">8.1. <span class="todo TODO">TODO</span> explain todo lists (if you hit SHIFT META [RET], another todo item will be created in current list)</a></li>
-<li><a href="#sec-8-2">8.2. <span class="done DONE">DONE</span> Explain some odd things going on in program (if you hit C-c C-t, todo item will be marked as done)</a></li>
-<li><a href="#sec-8-3">8.3. <span class="todo TODO">TODO</span> If you want to add deadlines, you can use C-c C-d that pops up a calender (use SHIFT up/down to scroll through calender)</a></li>
+<li>
+<ul>
+<li><a href="#sec-8-0-1">8.0.1. <span class="todo TODO">TODO</span> explain todo lists (if you hit SHIFT META [RET], another todo item will be created in current list)</a></li>
+<li><a href="#sec-8-0-2">8.0.2. <span class="done DONE">DONE</span> Explain some odd things going on in program (if you hit C-c C-t, todo item will be marked as done)</a></li>
+<li><a href="#sec-8-0-3">8.0.3. <span class="todo TODO">TODO</span> If you want to add deadlines, you can use C-c C-d that pops up a calender (use SHIFT up/down to scroll through calender)</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -116,8 +120,8 @@ Also, you don't need to type BEGIN<sub>SRC</sub> and END<sub>SRC</sub>, there's 
 
 # Todo stuff<a id="sec-8" name="sec-8"></a>
 
-## TODO explain todo lists (if you hit SHIFT META [RET], another todo item will be created in current list)<a id="sec-8-1" name="sec-8-1"></a>
+### TODO explain todo lists (if you hit SHIFT META [RET], another todo item will be created in current list)<a id="sec-8-0-1" name="sec-8-0-1"></a>
 
-## DONE Explain some odd things going on in program (if you hit C-c C-t, todo item will be marked as done)<a id="sec-8-2" name="sec-8-2"></a>
+### DONE Explain some odd things going on in program (if you hit C-c C-t, todo item will be marked as done)<a id="sec-8-0-2" name="sec-8-0-2"></a>
 
-## TODO If you want to add deadlines, you can use C-c C-d that pops up a calender (use SHIFT up/down to scroll through calender)<a id="sec-8-3" name="sec-8-3"></a>
+### TODO If you want to add deadlines, you can use C-c C-d that pops up a calender (use SHIFT up/down to scroll through calender)<a id="sec-8-0-3" name="sec-8-0-3"></a>
