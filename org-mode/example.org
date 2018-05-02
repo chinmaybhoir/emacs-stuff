@@ -57,7 +57,7 @@ Also, you don't need to type BEGIN_SRC and END_SRC, there's a shortcut for that.
 
 
 * Todo stuff
-** TODO explain todo lists (if you hit SHIFT META [RET], another todo item will be created in current list)
-** DONE Explain some odd things going on in program (if you hit C-c C-t, todo item will be marked as done) 
-** TODO If you want to add deadlines, you can use C-c C-d that pops up a calender (use SHIFT up/down to scroll through calender)
+*** TODO explain todo lists (if you hit SHIFT META [RET], another todo item will be created in current list)
+*** DONE Explain some odd things going on in program (if you hit C-c C-t, todo item will be marked as done) 
+*** TODO If you want to add deadlines, you can use C-c C-d that pops up a calender (use SHIFT up/down to scroll through calender)
    DEADLINE: <2018-05-04 Fri>
