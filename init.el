@@ -1,12 +1,18 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-(load-file "~/.emacs.d/themes/spacemacs-theme/spacemacs-common.el")
 (load-file "~/.emacs.d/misc-files/dash.el")
 (load-file "~/.emacs.d/misc-files/autothemer.el")
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/spacemacs-theme/")
+
+;; ========================== Spacemacs theme ==========================
+;; (load-file "~/.emacs.d/themes/spacemacs-theme/spacemacs-common.el")
+;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/spacemacs-theme/")
 ;;(load-theme 'spacemacs-dark t)
-;;(load-theme 'material t)
+;; =====================================================================
+
 (load-theme 'darktooth t)
+
+;; Enable line numbers in every buffer
 (global-linum-mode t)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -22,3 +28,9 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; ======================= emacs-async ==========================
+;; (add-to-list 'load-path "~/.emacs.d/misc-files/emacs-async/")
+;; (mapc 'load (file-expand-wildcards "~/.emacs.d/misc-files/emacs-async/*.el"))
+;; (autoload 'dired-async-mode "dired-async.el" nil t)
+;; (dired-async-mode 1)
+;; ==============================================================
