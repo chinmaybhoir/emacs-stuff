@@ -1,10 +1,19 @@
 * emacs-stuff
  This is a repository of stuff/notes I will be collecting while learning emacs
 
-** Links
+** Useful Links
 - Emacs website: [[https://www.gnu.org/software/emacs/][GNU Emacs]]
 - Emacs wiki: [[https://www.emacswiki.org/emacs/][Emacs Wiki]]
 - Emacs manual: [[https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html][GNU Emacs Manual]]
 - org-mode: [[https://orgmode.org/][org-mode home]]
 - org-mode talk by Harry Schwartz: [[https://www.youtube.com/watch?v%3DSzA2YODtgK4&index%3D4&t%3D688s&list%3DWL][Getting started with org-mode]]
-- Emacs cheat sheet ref card: [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][Reference Card]]
+- Emacs cheat sheet ref card: [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][Reference Card]
+
+** Themes
+I like to tweak emacs to the theme that I like. Here are some beautiful themes that I've tried (themes directory contains source code for some of them)
+- [[https://github.com/nashamri/spacemacs-theme][Spacemacs theme]]
+- [[https://github.com/emacsfodder/Emacs-theme-Darktooth][Darktooth theme]]
+- [[https://github.com/hlissner/emacs-doom-themes][Doom theme]]
+- [[https://github.com/cpaulik/emacs-material-theme][Material theme]]
+
+In addition to above, [[https://emacsthemes.com/][here]] is a themes gallery for emacs which contains tons of themes.
