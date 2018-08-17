@@ -2,6 +2,9 @@
 (load-file "~/.emacs.d/misc-files/dash.el")
 (load-file "~/.emacs.d/misc-files/autothemer.el")
 
+;; Remove toolbar
+(tool-bar-mode -1)
+
 ;; ========================== Spacemacs theme ==========================
 ;; (load-file "~/.emacs.d/themes/spacemacs-theme/spacemacs-common.el")
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/spacemacs-theme/")
@@ -34,3 +37,5 @@
 ;; (autoload 'dired-async-mode "dired-async.el" nil t)
 ;; (dired-async-mode 1)
 ;; ==============================================================
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
