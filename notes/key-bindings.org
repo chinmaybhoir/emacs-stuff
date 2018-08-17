@@ -1,0 +1,19 @@
+* These are some useful keybindings
+
+** Operations/marking the text regions ([[https://www.gnu.org/software/emacs/manual/html_node/emacs/Using-Region.html][manual page]])
+- Selection
+  - Mark the region with C-<SPACE>
+  - Select current paragraph with M-h
+  - Select entire buffer C-x h
+- Cut/copy/paste
+  - Cut text with C-w
+  - Copy text with M-w
+  - Paste the copied text with C-y
+- Misc operations
+  - Convert case of selected region with C-x C-u (UPPER) or C-x C-l (lower)
+  - Undo the recent changes with C-/
+
+** Searching and replacement of text/string
+- Incremental search (Isearch)
+  - C-s for forward search, C-r for backward search
+
