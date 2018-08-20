@@ -1,4 +1,11 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+
+;; which-key plugin
+(add-to-list 'load-path "~/.emacs.d/misc-files/")
+(require 'which-key)
+(which-key-mode)
+
+
 (load-file "~/.emacs.d/misc-files/dash.el")
 (load-file "~/.emacs.d/misc-files/autothemer.el")
 
@@ -15,6 +22,10 @@
 
 ;; Enable line numbers in every buffer
 (global-linum-mode t)
+
+;; Enable elpy for python IDE
+(package-initialize)
+(elpy-enable)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -39,3 +50,4 @@
 ;; ==============================================================
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
+
